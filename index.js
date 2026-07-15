@@ -1,4 +1,4 @@
   const element= React.createElement("h1","Welcome to React");
   const root = ReactDom.createRoot(document.getElementById("root"));
-  root.Render(element);
+  root.render(element);
 
