@@ -2,16 +2,17 @@
 <html>
 <head>
     <title>Welcome to React</title>
-
-    <!-- React CDN -->
+<script  src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
    <!-- include the required cdn link here-->
 </head>
-
 <body>
-<!-- Intialize the root tag -->
-
-<!-- link your index.js here -->
-<script></script>
+<div id ="root"> </div>
+<script>
+    const element= React.createElement("h1","Welcome to my web page");
+    const root = React-Dom.createRoot(document.getElementById("root"));
+    root.render(element);
+</script>
 
 </body>
 </html>
